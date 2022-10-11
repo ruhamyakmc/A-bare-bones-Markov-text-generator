@@ -1,7 +1,7 @@
 # A-bare-bones-Markov-text-generator
 I implemented a bare-bones Markov text generator. The function takes the form
 finish_sentence(sentence, n, corpus, deterministic=False)
-that takes four arguments:
+with four arguments:
 1. a sentence [list of tokens] that we’re trying to build on,
 2. n [int], the length of n-grams to use for prediction, and
 3. a source corpus [list of tokens]
