@@ -2,10 +2,10 @@
 I implemented a bare-bones Markov text generator. The function takes the form
 finish_sentence(sentence, n, corpus, deterministic=False)
 with four arguments:
-1. a sentence [list of tokens] that we’re trying to build on,
-2. n [int], the length of n-grams to use for prediction, and
-3. a source corpus [list of tokens]
-4. a flag indicating whether the process should be deterministic [bool]
+1. A sentence [list of tokens] that we’re trying to build on,
+2. N [int], the length of n-grams to use for prediction, and
+3. A source corpus [list of tokens]
+4. A flag indicating whether the process should be deterministic [bool]
 and returns an extended sentence until the first ., ?, or ! is found OR until it has 10 total
 tokens.
 
